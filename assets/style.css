@@ -19,6 +19,7 @@ body
 {
 	display: flex;
 	justify-content: center;
+	background: #fff;
 }
 .container header img
 {
