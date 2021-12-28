@@ -26,6 +26,7 @@ body
 }
 .container .section
 {
+	display: flex;
 	background: #f3f3f3;
 }
 .container .section h2
