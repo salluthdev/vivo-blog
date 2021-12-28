@@ -11,10 +11,6 @@ body
 	font-family: 'Open Sans', sans-serif;
 	overflow-x: hidden;
 }
-.container
-{
-	padding: 0 60px;
-}
 .container header
 {
 	display: flex;
@@ -29,6 +25,7 @@ body
 	display: flex;
 	gap: 40px;
 	background: #f3f3f3;
+	padding: 0 60px;
 }
 .container .section .main
 {
@@ -49,8 +46,5 @@ body
 
 @media (max-width: 1200px)
 {
-	.container
-	{
-		padding: 0 40px;
-	}
+
 }
