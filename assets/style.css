@@ -29,6 +29,14 @@ body
 	display: flex;
 	background: #f3f3f3;
 }
+.container .section .main
+{
+	flex: 1;
+}
+.container .section .aside
+{
+	width: 400px;
+}
 .container .section h2
 {
 	color: #1a1a1a;
