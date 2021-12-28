@@ -23,6 +23,10 @@ body
 {
 	width: 100%;
 }
+.container .section
+{
+	background: #f3f3f3;
+}
 
 @media (max-width: 1200px)
 {
