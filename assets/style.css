@@ -34,13 +34,17 @@ body
 {
 	flex: 1;
 }
-.container .section .aside
-{
-	width: 400px;
-}
 .container .section h2
 {
 	color: #1a1a1a;
+}
+.container .section .main img
+{
+	width: 100%;
+}
+.container .section .aside
+{
+	width: 400px;
 }
 
 @media (max-width: 1200px)
