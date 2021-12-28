@@ -5,3 +5,8 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
+header
+{
+	display: flex;
+	justify-content: center;
+}
