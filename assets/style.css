@@ -27,6 +27,7 @@ body
 .container .section
 {
 	display: flex;
+	gap: 40px;
 	background: #f3f3f3;
 }
 .container .section .main
