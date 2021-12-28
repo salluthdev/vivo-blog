@@ -5,10 +5,6 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
-body
-{
-	width: 1200px;
-}
 header
 {
 	display: flex;
