@@ -9,12 +9,12 @@
 {
 	width: 1200px;
 }
-header
+.container header
 {
 	display: flex;
 	justify-content: center;
 }
-header img
+.container header img
 {
 	width: 100%;
 }
