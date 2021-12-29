@@ -45,6 +45,7 @@ hr
 }
 .main .left .superior
 {
+	position: relative;
 	margin-top: 20px;
 }
 .main .left .superior img
