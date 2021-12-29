@@ -39,6 +39,12 @@ body
 {
 	color: #1a1a1a;
 }
+ hr
+ {
+    height: 1px;
+    background-color: #c8c8c8;
+    border: none;
+    }
 .main .left img
 {
 	width: 100%;
