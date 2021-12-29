@@ -18,7 +18,10 @@ body
 .swiper
 {
   	width: 100%;
-  	height: 520px;
+}
+.mySwiper1
+{
+	height: 40vw;
 }
 .swiper-pagination-bullet
 {
@@ -148,7 +151,11 @@ hr
 .video .swiper
 {
 	width: 100%;
-	padding-top: 70px;
+	padding-top: 60px;
+}
+.mySwiper2
+{
+	height: 500px;
 }
 .video .swiper-slide
 {
@@ -219,7 +226,90 @@ hr
 	margin-top: 20px;
 }
 
-@media (max-width: 1200px)
+@media (max-width: 1100px)
+{
+	.banner
+	{
+		padding: 0 40px;
+	}
+	.main
+	{
+		flex-direction: column;
+		padding: 20px 40px;
+	}
+	.main .left, .main .right
+	{
+		width: 100%;
+	}
+	.video
+	{
+		padding: 80px;
+	}
+	.video .swiper-button-prev
+	{
+		left: 40px;
+	}
+	.video .swiper-button-next
+	{
+		right: 40px;
+	}
+}
+@media (max-width: 760px)
+{
+	.banner
+	{
+		padding: 0 20px;
+	}
+	.mySwiper1
+	{
+		min-height: 200px;
+	}
+	.main
+	{
+		padding: 20px;
+	}
+	.main .left .content
+	{
+		flex-direction: column;
+	}
+	.main .left .content .text
+	{
+		margin-top: 12px;
+		margin-left: unset;
+	}
+	.video
+	{
+		padding: 20px;
+	}
+	.mySwiper2
+	{
+		height: 400px;
+	}
+	.video .swiper-slide
+	{
+	    width: 400px;
+	    height: 400px;
+	}
+	.video .swiper-slide .play-button img
+	{
+		top: 80px;
+		left: 165px;
+		z-index: 1;
+	}
+	.video .swiper-slide .text
+	{
+		display: none;
+	}
+	.video .swiper-button-prev
+	{
+		left: 20px;
+	}
+	.video .swiper-button-next
+	{
+		right: 20px;
+	}
+}
+@media (max-width: 760px)
 {
 
 }
