@@ -11,35 +11,35 @@ body
 	font-family: 'Open Sans', sans-serif;
 	overflow-x: hidden;
 }
-.container header
+header
 {
 	display: flex;
 	justify-content: center;
 }
-.container header img
+header img
 {
 	width: 100%;
 }
-.container .section
+.section
 {
 	display: flex;
 	gap: 40px;
 	background: #f3f3f3;
 	padding: 0 60px;
 }
-.container .section .main
+.section .main
 {
 	flex: 1;
 }
-.container .section h2
+.section h2
 {
 	color: #1a1a1a;
 }
-.container .section .main img
+.section .main img
 {
 	width: 100%;
 }
-.container .section .aside
+.section .aside
 {
 	width: 400px;
 }
