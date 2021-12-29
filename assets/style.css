@@ -24,7 +24,7 @@ body
 {
 	width: 60px;
 	height: 6px;
-	border-radius: unset;
+	border-radius: 4px;
 }
 .banner img
 {
