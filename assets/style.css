@@ -13,9 +13,12 @@ body
 }
 .banner
 {
-	display: flex;
-	justify-content: center;
 	padding: 0 80px;
+}
+.swiper
+{
+  	width: 100%;
+  	height: 520px;
 }
 .banner img
 {
