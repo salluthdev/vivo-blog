@@ -63,6 +63,10 @@ hr
 	left: 0;
 	background: rgba(0, 0, 0, 0.2);
 }
+.main .left .superior .text h3
+{
+	color: #fff;
+}
 .main .right
 {
 	width: 400px;
