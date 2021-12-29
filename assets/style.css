@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 *
 {
 	margin: 0;
@@ -74,14 +74,15 @@ hr
 	border-radius: 0 0 8px 8px;
 	padding: 20px 32px;
 }
-.main .left .featured-content .text h3
+.main .left .featured-content .text h3,
+.main .left .content .text h3
 {
 	color: #fff;
 	font-size: 22px;
-	font-weight: 500;
+	font-weight: 600;
 	margin-bottom: 12px;
 }
-.main .left .featured-content .text p
+.main .left .text span
 {
 	color: #f9f9f9;
 	font-size: 12px;
@@ -90,6 +91,24 @@ hr
 {
 	display: flex;
 	margin: 20px 0;
+}
+.main .left .content .text
+{
+	margin-left: 20px;
+}
+.main .left .content .text h3
+{
+	color: #456fff;
+	margin-bottom: 6px;
+}
+.main .left .content .text p
+{
+	color: #1a1a1a;
+	margin-bottom: 6px;
+}
+.main .left .content .text span
+{
+	color: #b0b0b0;
 }
 .main .right
 {
