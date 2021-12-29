@@ -51,6 +51,10 @@ hr
 {
 	width: 100%;
 }
+.main img
+{
+	border-radius: 8px;
+}
 .main .right
 {
 	width: 400px;
