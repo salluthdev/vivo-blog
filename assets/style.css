@@ -62,6 +62,7 @@ hr
 	bottom: 4px;
 	left: 0;
 	background: rgba(0, 0, 0, 0.4);
+	border-radius: 0 0 8px 8px;
 	padding: 20px 32px;
 }
 .main .left .superior .text h3
