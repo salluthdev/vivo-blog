@@ -23,6 +23,7 @@ body
 .swiper-pagination-bullet
 {
 	width: 60px;
+	height: 6px;
 	border-radius: unset;
 }
 .banner img
