@@ -61,7 +61,7 @@ hr
 	position: absolute;
 	bottom: 4px;
 	left: 0;
-	background: rgba(0, 0, 0, 0.4);
+	background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.8));
 	border-radius: 0 0 8px 8px;
 	padding: 20px 32px;
 }
