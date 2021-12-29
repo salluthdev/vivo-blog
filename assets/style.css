@@ -50,5 +50,8 @@ body
 
 @media (max-width: 1200px)
 {
-
+	.section
+	{
+		padding: 0 60px;
+	}
 }
