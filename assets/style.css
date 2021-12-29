@@ -65,7 +65,8 @@ hr
 {
 	border-radius: 8px;
 }
-.main .left .featured-content .text
+.main .left .featured-content .text,
+.video .swiper-slide .text
 {
 	position: absolute;
 	bottom: 4px;
@@ -75,14 +76,16 @@ hr
 	padding: 20px 32px;
 }
 .main .left .featured-content .text h3,
-.main .left .content .text h3
+.main .left .content .text h3,
+.video .swiper-slide .text h3
 {
 	color: #fff;
 	font-size: 22px;
 	font-weight: 600;
 	margin-bottom: 12px;
 }
-.main .left .text span
+.main .left .text span,
+.video .swiper-slide .text span
 {
 	color: #f9f9f9;
 	font-size: 12px;
@@ -134,8 +137,68 @@ hr
 }
 .video
 {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: #456fff;
-	padding: 40px;
+	padding: 40px 140px;
+}
+.video .swiper
+{
+	width: 100%;
+	padding-top: 70px;
+}
+.video .swiper-slide
+{
+	position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+}
+.video .swiper-slide img
+{
+	display: block;
+	width: 100%;
+	border-radius: 8px;
+}
+.video .swiper-slide .play-button img
+{
+	position: absolute;
+	top: 120px;
+	left: 265px;
+	width: 70px;
+	z-index: 1;
+}
+.video .swiper-slide .text
+{
+	position: absolute;
+	top: 200px;
+	height: 138px;
+}
+.video .swiper-button-prev,
+.video .swiper-button-next
+{
+	color: #fff;
+}
+.video .swiper-button-prev
+{
+	left: 80px;
+}
+.video .swiper-button-next
+{
+	right: 80px;
+}
+.video .swiper-pagination-bullet
+{
+	background: #fff;
+	opacity: unset;
+}
+.video .swiper-pagination-bullet-active
+{
+	background: #1a1a1a;
 }
 .footer
 {
