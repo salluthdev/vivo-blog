@@ -20,26 +20,26 @@ header img
 {
 	width: 100%;
 }
-.section
+.main
 {
 	display: flex;
 	gap: 40px;
 	background: #f3f3f3;
 	padding: 0 60px;
 }
-.section .main
+.main .left
 {
 	flex: 1;
 }
-.section h2
+.main h2
 {
 	color: #1a1a1a;
 }
-.section .main img
+.main .left img
 {
 	width: 100%;
 }
-.section .aside
+.main .right
 {
 	width: 400px;
 }
