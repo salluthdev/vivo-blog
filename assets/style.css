@@ -16,6 +16,10 @@ body
 	display: flex;
 	justify-content: center;
 }
+.section
+{
+	padding: 0 80px;
+}
 .banner img
 {
 	width: 100%;
