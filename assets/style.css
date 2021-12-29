@@ -52,12 +52,12 @@ hr
 	background: #c8c8c8;
 	border: none;
 }
-.main .left .superior
+.main .left .featured-content
 {
 	position: relative;
 	margin-top: 20px;
 }
-.main .left .superior img
+.main .left .featured-content img
 {
 	width: 100%;
 }
@@ -65,7 +65,7 @@ hr
 {
 	border-radius: 8px;
 }
-.main .left .superior .text
+.main .left .featured-content .text
 {
 	position: absolute;
 	bottom: 4px;
@@ -74,14 +74,14 @@ hr
 	border-radius: 0 0 8px 8px;
 	padding: 20px 32px;
 }
-.main .left .superior .text h3
+.main .left .featured-content .text h3
 {
 	color: #fff;
 	font-size: 22px;
 	font-weight: 500;
 	margin-bottom: 12px;
 }
-.main .left .superior .text p
+.main .left .featured-content .text p
 {
 	color: #f9f9f9;
 	font-size: 12px;
