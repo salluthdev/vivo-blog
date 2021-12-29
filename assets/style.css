@@ -33,29 +33,29 @@ body
 .main
 {
 	display: flex;
-	gap: 40px;
+	gap: 60px;
 	background: #f3f3f3;
-	padding: 40px 80px;
+	padding: 20px 80px;
 }
 .main .left
 {
-	flex: 1;
+	width: 65%;
 }
 .main h2
 {
 	color: #1a1a1a;
-	margin-bottom: 8px;
+	margin: 20px 0 8px;
 }
 hr
 {
 	height: 1px;
-	background: #c8c8c8;
+	background: #ccc;
 	border: none;
 }
 .main .left .featured-content
 {
 	position: relative;
-	margin-top: 20px;
+	margin-top: 24px;
 }
 .main .left .featured-content img
 {
@@ -90,11 +90,11 @@ hr
 .main .content
 {
 	display: flex;
-	margin: 20px 0;
+	margin: 24px 0;
 }
 .main .left .content .text
 {
-	margin-left: 20px;
+	margin-left: 24px;
 }
 .main .left .content .text h3
 {
@@ -112,7 +112,48 @@ hr
 }
 .main .right
 {
-	width: 400px;
+	width: 35%;
+}
+.main .right .content
+{
+	align-items: center;
+	margin: 26px 0;
+}
+.main .right .content img
+{
+	width: 100px;
+	height: 60px;
+	object-fit: cover;
+	object-position: center;
+}
+.main .right .content .text h4
+{
+	font-size: 18px;
+	color: #456fff;
+	margin-left: 24px;
+}
+.video
+{
+	background: #456fff;
+	padding: 40px;
+}
+.footer
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #1a1a1a;
+	padding: 48px 0;
+}
+.footer img
+{
+	width: 200px;
+}
+.footer p 
+{
+	color: #fff;
+	margin-top: 20px;
 }
 
 @media (max-width: 1200px)
