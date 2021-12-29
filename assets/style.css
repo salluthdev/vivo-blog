@@ -43,6 +43,10 @@ hr
 	background: #c8c8c8;
 	border: none;
 }
+.main .left .superior
+{
+	margin-top: 20px;
+}
 .main .left .superior img
 {
 	width: 100%;
